@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>aerospike-client-c-dependencies</id>
+    <version>1.0.1</version>
+    <title>Aerospike C Client Build Dependencies</title>
+    <authors>Aerospike</authors>
+    <owners>Aerospike</owners>
+    <licenseUrl>https://github.com/aerospike/aerospike-client-c/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://www.aerospike.com/download/client/c</projectUrl>
+    <iconUrl>http://wordpress-www.s3-us-west-1.amazonaws.com/wp-content/uploads/2015/03/bryan-as.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Third-party libraries and header files that are prerequisites for building the Aerospike C client.</summary>
+<description>
+Third-party libraries and header files that are prerequisites for building the Aerospike C client.
+This package is only designed to help build the Aerospike C client library.
+
+Separate deployment packages (aerospike-client-c, aerospike-client-c-libuv and 
+aerospike-client-c-libevent) are used to build customer applications with Aerospike.
+
+Libraries (64 bit):
+
+getopt 1.0.2
+libevent 2.1.8
+libuv 1.15.0
+lua 5.1.5
+openssl 1.0.2
+pthreads 2.10.0
+zlib 1.2.8.8
+</description>
+    <copyright>Copyright 2008-2017 Aerospike, Inc.</copyright>
+    <tags>Aerospike database C client dependencies native</tags>
+  </metadata>
+  <files>
+	<file src="aerospike-client-c-dependencies.targets" target="build\native" />
+	<file src="README.md" target="build\native" />
+	<file src="include\**" target="build\native\include" />
+	<file src="lib\x64\**" target="build\native\lib\x64" />
+  </files>
+</package>
