@@ -6,9 +6,9 @@
     <title>Aerospike C Client Build Dependencies</title>
     <authors>Aerospike</authors>
     <owners>Aerospike</owners>
-    <licenseUrl>https://github.com/aerospike/aerospike-client-c/blob/master/LICENSE.md</licenseUrl>
+    <license type="expression">Apache-2.0</license>
     <projectUrl>https://www.aerospike.com/download/client/c</projectUrl>
-    <iconUrl>http://wordpress-www.s3-us-west-1.amazonaws.com/wp-content/uploads/2015/03/bryan-as.png</iconUrl>
+    <icon>icon.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Third-party libraries and header files that are prerequisites for building the Aerospike C client.</summary>
 <description>
@@ -28,7 +28,7 @@ openssl 1.0.2
 pthreads 2.10.0
 zlib 1.2.8.8
 </description>
-    <copyright>Copyright 2008-2017 Aerospike, Inc.</copyright>
+    <copyright>Copyright 2008-2022 Aerospike, Inc.</copyright>
     <tags>Aerospike database C client dependencies native</tags>
   </metadata>
   <files>
