@@ -44,22 +44,6 @@ libevent is required if using async methods and libevent is the chosen event fra
 	- Release/event_core.dll
 	- Release/event_core.lib
 
-## lua 5.1.5
-
-Lua is required if using aggregation queries.
-
-- include
-	- lauxlib.h
-	- lua.h
-	- luaconf.h
-	- lualib.h
-- lib/x64
-	- Debug/lua51.dll
-	- Debug/lua51.lib
-	- Debug/lua51.pdb
-	- Release/lua51.dll
-	- Release/lua51.lib
-
 ## pthreads 2.10.0
 
 Pthreads are required.

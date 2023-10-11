@@ -23,12 +23,11 @@ Libraries (64 bit):
 getopt 1.0.2
 libevent 2.1.8
 libuv 1.15.0
-lua 5.1.5
 openssl 1.0.2
 pthreads 2.10.0
 zlib 1.2.8.8
 </description>
-    <copyright>Copyright 2008-2022 Aerospike, Inc.</copyright>
+    <copyright>Copyright 2008-2023 Aerospike, Inc.</copyright>
     <tags>Aerospike database C client dependencies native</tags>
   </metadata>
   <files>
