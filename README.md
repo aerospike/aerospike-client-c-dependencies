@@ -60,24 +60,6 @@ Pthreads are required.
 	- Release/pthreadVC2.dll
 	- Release/pthreadVC2.lib
 
-## openssl 1.0.2
-
-OpenSSL is required if using TLS/SSL sockets.
-
-- include
-	- openssl folder
-- lib/x64
-	- Debug/libeay32.dll
-	- Debug/libeay32.lib
-	- Debug/libeay32.pdb
-	- Debug/ssleay32.dll
-	- Debug/ssleay32.lib
-	- Debug/ssleay32.pdb
-	- Release/libeay32.dll
-	- Release/libeay32.lib
-	- Release/ssleay32.dll
-	- Release/ssleay32.lib
-
 ## zlib 1.2.8.8
 
 zlib is required.
