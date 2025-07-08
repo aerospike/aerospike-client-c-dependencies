@@ -9,6 +9,7 @@
     <license type="expression">Apache-2.0</license>
     <projectUrl>https://www.aerospike.com/download/client/c</projectUrl>
     <icon>icon.png</icon>
+    <readme>README.md</readme>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Third-party libraries and header files that are prerequisites for building the Aerospike C client.</summary>
 <description>
@@ -23,15 +24,15 @@ Libraries (64 bit):
 getopt 1.0.2
 libevent 2.1.8
 libuv 1.15.0
-openssl 1.0.2
 pthreads 2.10.0
 zlib 1.2.8.8
 </description>
-    <copyright>Copyright 2008-2023 Aerospike, Inc.</copyright>
+    <copyright>Copyright 2008-2025 Aerospike, Inc.</copyright>
     <tags>Aerospike database C client dependencies native</tags>
   </metadata>
   <files>
     <file src="icon.png" target="" />
+    <file src="README.md" target="" />
 	<file src="aerospike-client-c-dependencies.targets" target="build\native" />
 	<file src="README.md" target="build\native" />
 	<file src="include\**" target="build\native\include" />
