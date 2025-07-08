@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>aerospike-client-c-dependencies</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <title>Aerospike C Client Build Dependencies</title>
     <authors>Aerospike</authors>
     <owners>Aerospike</owners>
